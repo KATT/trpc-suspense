@@ -4,7 +4,7 @@ import NextError from 'next/error';
 
 export default function PostViewPage() {
   const id = useRouter().query.id as string;
-  const postQuery = trpc.useQuery(['post.byId', { id }]);
+  const postQuery = trpc.useQuery(['post.byId', { id }], { suspense: true });
 
   if (postQuery.error) {
     return (
