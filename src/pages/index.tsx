@@ -23,7 +23,7 @@ export default function IndexPage() {
         <title>Prisma Starter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Welcome to your tRPC starter!</h1>
+      <h1>Welcome to your tRPC starter! (Suspense testing)</h1>
       <p>
         Check <a href="https://trpc.io/docs">the docs</a> whenever you get
         stuck, or ping <a href="https://twitter.com/alexdotjs">@alexdotjs</a> on
